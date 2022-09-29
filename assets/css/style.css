@@ -1,0 +1,54 @@
+div {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:aquamarine;
+    border-radius: 20px;
+    padding: 2vh;
+    color: black;
+}
+
+nav{
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    padding: 2vh;
+    font-size: 1.3rem;
+}
+
+button :hover{
+    cursor: pointer;
+}
+
+#list-menu{
+    list-style: none;
+    margin-bottom: 1vh;
+    padding: 0;
+}
+
+#list-menu li{
+    text-align: center;
+    width: 18%;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    font-size: 1.2rem;
+}
+
+.closed-menu{
+    display: none;
+}
+
+
+.open-menu{
+    display: block;
+}
+
+#container{
+    margin-top: 5vh;
+}
+
+p{
+    font-size: 35px;
+}
